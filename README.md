@@ -23,7 +23,7 @@ Compress local video for react native. Only for iOS, Android will be coming.
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNCompressPackage;` to the imports at the top of the file
+  - Add `import com.hauvo.compress.RNCompressPackage;` to the imports at the top of the file
   - Add `new RNCompressPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
