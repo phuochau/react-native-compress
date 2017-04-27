@@ -1,5 +1,6 @@
 
 # react-native-compress
+Compress local video for react native. Only for iOS, Android will be coming.
 
 ## Getting started
 
