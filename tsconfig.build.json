@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "lib/typescript",
+    "rootDir": "src",
+    "types": ["react-native"],
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "lib",
+    "**/__tests__",
+    "**/__fixtures__",
+    "**/__mocks__",
+    "**/.*"
+  ]
+} 
